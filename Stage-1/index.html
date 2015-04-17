@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Majid's Notes</title>
+    <link rel="stylesheet" href="majidstyle.css">
+  </head>
+  <body>
+    <div class="title">
+        <h1>Introduction to Programming Nanodegree Notes</h1>
+            <ol>
+                <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a></li>
+                <li><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a></li>
+                <li><a href="#lesson-3">Lesson 3: Adding CSS Style to HTML Structure</a></li>
+            </ol>
+    </div>
+    <div class="lesson">
+        <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+        <div class="topic">
+            <div class="topic-title">
+                Some tags:
+            </div>
+            <div class="topic-content">
+                <ul>
+                    <li><b>Bold</b> text: <span class="code">&#60;b&#62; text &#60;/b&#62;</span></li>
+                    <li><em>Italic</em> text (em or emphasis): <span class="code">&#60;em&#62;text&#60;/em&#62;</span></li>
+                    <li><u>Links</u> (Anchor): <span class="code">&#60;a href="source url"&#62;text to hyperlink&#60;/a&#62;</span>
+                        <ul>
+                            <li>Example: <a href="http://www.udacity.com"> Udacity </a></li>
+                        </ul>
+                    </li>
+                    <li><u>Images</u>: <span class="code">&#60;img src="url" alt="text"&#62;</span> (this is a void tag, i.e. no closing tag as it doesn't have any content)
+                        <ul>
+                            <li>Example: <img src="http://www.udacity.com/cs253x/hipmunk.png" alt="Udacity logo"></li>
+                        </ul>
+                    </li>
+                    <li><u>Break</u> (new line): <span class="code">&#60;br&#62;</span> (another void tag)</li>
+                    <li><u>Paragraph</u> (puts a box around the content): <span class="code">&#60;p&#62;content&#60;/p&#62;</span></li>
+                </ul>
+                <p>A break tag is an <b>inline</b> tag, i.e. it only contains content.</p>
+                <p>A paragraph tag is a <b>block</b> tag, i.e. it can have height and width.</p>
+            </div>
+            <div class="topic-title">
+                Container Elements
+            </div>
+            <div class="topic-content">
+                You can add styles (CSS) to these tags:
+                <p><span class="code">&#60;span&#62;text&#60;/span&#62;</span> is inline
+                <br>
+                This tag provides a way to add a hook to a part of a text or a part of a document. (<em>source: <a href="http://www.w3schools.com">w3schools</a></em>)
+                </p>
+                <p><span class="code">&#60;div&#62; text &#60;/div&#62;</span> is block
+                <br>
+                This tag is very often used together with CSS, to layout a web page. (<em>source: <a href="http://www.w3schools.com">w3schools</a></em>)
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="lesson">
+        <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+        <div class="topic">
+            <div class="topic-title">
+                HTML, CSS, JavaScript
+            </div>
+            <div class="topic-content">
+                <p>
+                    They are all languages that form the componenets of a website. <b>HTML</b> gives <em>Sturcture</em>, <b>CSS</b> gives <em>Style</em>, and <b>JavaScript</b> gives the <em>Interactive Components</em>.
+                </p>
+                <p>
+                    <b>CSS</b> = Cascading Style Sheets
+                </p>
+                <p>
+                    <b>DOM (Document Object Model)</b> = tree-like structure of a page; a cross-platform and language-independent convention for representing and interacting with objects in HTML (HyperText Markup Language and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="lesson">
+        <h2 id="lesson-3">Lesson 3: Adding CSS Style to HTML Structure</h2>
+        <div class="topic">
+            <div class="topic-title">
+                Avoiding Repitition
+            </div>
+            <div class="topic-content">
+                <p>
+                    CSS helps in avoiding repitition which makes it easy to make changes, and also helps in reducing errors.
+                </p>
+                <p>
+                    CSS allows you to control the style of elements by selecting elements directly, or selecting elements by class.
+                </p>
+                <p>
+                    <b>Inheritance:</b> Inheritance is the mechanism by which properties are applied not only to a specified element, but also to its descendants. Descendant elements may inherit CSS property values from any ancestor element enclosing them. In general, descendant elements inherit text-related properties, but box-related properties are not inherited. Inheritance prevents certain properties from being declared over and over again in a style sheet.
+                </p>
+                <p>
+                    To verify HTML: <a href="http://validator.w3.org/#validate_by_input">http://validator.w3.org/#validate_by_input</a>
+                </p>
+                <p>
+                    To verify CSS: <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">http://jigsaw.w3.org/css-validator/#validate_by_input</a>
+                </p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
